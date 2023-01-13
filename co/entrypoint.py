@@ -26,7 +26,7 @@ def co(cmd):
     if len(suggestion) > 0:
         suggestion = suggestion[1:] # remove first space
     if click.confirm(f"Suggested command:\n    {suggestion}\nExecute?"):
-        cmd = [c for c in suggestion.split(' ') if len(c) > 0]
+        cmd = suggestion
         subprocess.run(cmd, cwd=pwd, shell=True)
     else:
         print("Canceled")

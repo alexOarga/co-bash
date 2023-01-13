@@ -38,11 +38,15 @@ $ co <arguments>
 # Example
 
 ```console
-$ co list all available nvidia gpus and their usage
+$ co create a git commit with message 'initial commit'
 Suggested command:
-    nvidia-smi
+    git commit -m 'initial commit'
 Execute? [y/N]: y
-Fri Jan 13 13:45:49 2023       
-+-----------------------------------------------------------------------------+
-| NVIDIA-SMI 470.161.03   Driver Version: 470.161.03   CUDA Version: 11.4     |
-|-------------------------------+----------------------+----------------------+
+[master (commit-raíz) d55572b] initial commit
+ 19 files changed, 561 insertions(+)
+ create mode 100644 LICENSE
+ create mode 100644 README.md
+ create mode 100644 co/__init__.py
+ create mode 100644 co/cohere.py
+ create mode 100644 co/constants.py
+ create mode 100644 co/entrypoint.py
