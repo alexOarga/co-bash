@@ -1,5 +1,7 @@
 # _co:bash_ - Cohere powered bash commands
 
+![pypi](https://img.shields.io/pypi/v/co-bash)
+
 This is a CLI tool for converting natural language into
 bash commands. It is powered by [Cohere](https://cohere.ai).
 
@@ -31,6 +33,8 @@ export COHERE_MODEL=xlarge
 
 # Usage
 
+Just use the `co` command to run _co:bash_:
+
 ```console
 $ co <arguments>
 ```
@@ -50,3 +54,4 @@ Execute? [y/N]: y
  create mode 100644 co/cohere.py
  create mode 100644 co/constants.py
  create mode 100644 co/entrypoint.py
+```
