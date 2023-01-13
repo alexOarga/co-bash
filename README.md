@@ -2,6 +2,8 @@
 
 ![pypi](https://img.shields.io/pypi/v/co-bash)
 
+![screenshot example](docs/screen.png)
+
 This is a CLI tool for converting natural language into
 bash commands. It is powered by [Cohere](https://cohere.ai).
 
