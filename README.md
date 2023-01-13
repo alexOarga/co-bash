@@ -2,10 +2,10 @@
 
 ![pypi](https://img.shields.io/pypi/v/co-bash)
 
-![screenshot example](docs/screen.png)
-
-This is a CLI tool for converting natural language into
+_co:bash_ is a CLI tool for converting natural language into
 bash commands. It is powered by [Cohere](https://cohere.ai).
+
+![screenshot example](docs/screen.png)
 
 # Install
 
@@ -15,18 +15,14 @@ _co:bash_ can be installed via `pip`:
 
 # Setup
 
-To use _co:bash_ you will need your own Cohere API key. You can
-get one at [cohere.ai](https://cohere.ai).
-
-You can set your API key in the environment variable `COHERE_API_KEY`.
+To use _co:bash_ you will need your own Cohere API key. You can get one at [cohere.ai](https://cohere.ai). 
+You can set your API key in the environment variable `COHERE_API_KEY`. I suggest adding this to your `.bashrc` file.
 
 ```bash
 export COHERE_API_KEY=XXXXXXXXXX
 ```
 
-I suggest adding this to your `.bashrc` file.
-
-`[Optional]` You can also set the Cohere model you want to use
+Optional: You can also set the Cohere model you want to use
 with the environment variable `COHERE_MODEL`:
 
 ```bash
